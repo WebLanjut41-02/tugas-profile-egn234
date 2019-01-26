@@ -9,14 +9,14 @@
 	<center>
 		<table border="1" width="1024">
 			<tr align="center">
-				<td colspan="3">WELCOME TO MY PAGE</td>
+				<td colspan="3">MY PAGE - HOME</td>
 			</tr>
             <tr align="center">
-                <td><a href="/myblog">HOME</a></td>
-                <td><a href="">GALERI</a></td>
+                <td><a href="<?= base_url(); ?>index.php/myblog" >HOME</a></td>
+                <td><a href="<?= base_url(); ?>index.php/myblog/foto">GALERI</a></td>
                 <td><a href="">PORTOFOLIO</a></td>
             </tr>
-            <tr>
+            <tr height="800">
                 <td colspan="3">
 
                 </td>
