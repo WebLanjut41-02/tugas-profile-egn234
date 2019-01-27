@@ -14,6 +14,12 @@ class myblog extends CI_Controller {
   public function post(){
     $this->load->view('post');
   }
+
+  public function comment(){
+	  $comment = array('comment' => $this->input->post('comment'));
+    $this->load->view('comment', $comment);
+
+  }
 }
 
 /* End of file myblog.php */
